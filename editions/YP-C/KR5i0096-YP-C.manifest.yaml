@@ -1,0 +1,49 @@
+canonical_identifier: bkk:krp/KR5i0096/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5i0096/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 警世功過格
+  date: '2015-08-29 17:59:08.668528'
+  source:
+    repository: kanripo
+    path: KR5i0096
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0096_001-YP-C.yaml, hash: 'sha256:d25bd0d9fb9602bc0f2a3d0d26a353354a4d2bca4d34f856e578ec5089df571c'}
+  - {seq: 2, filename: KR5i0096_002-YP-C.yaml, hash: 'sha256:7b7172edb739229a3eb1b2039ea3377d30ce6347552ddf4fba0a8d5266601c7a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0096_001-YP-C.markers.yaml, hash: 'sha256:5effc2b99e9e398aecc556a2daa890419455b6bce31fd179366816611da610ac'}
+  - {seq: 2, role: markers, filename: assets/KR5i0096_002-YP-C.markers.yaml, hash: 'sha256:440184d713908991049d2c50e709b8b9a24ce81d43571cc777d119fcc656292e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: YP-C_KR5i0096_26zhangji-03-0062a
+    span:
+    - body
+    - 0
+    - 5983
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: YP-C_KR5i0096_26zhangji-03-0087a
+    span:
+    - body
+    - 0
+    - 1562
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:9b6c3f5393480f74d661e5b60e3f7a43515bec95b7a4813d4049f4ce689954ae
